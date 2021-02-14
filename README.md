@@ -4,7 +4,7 @@
   We were tasked to analyze a telecom company's customer data in order help them mitigate their customer churn rate.
 
 ## Summary
-  We saw that there indeed was a pattern for churn. Customers who churned were usually people with month-to-month contracts and churned within the first 12 months of their contract. We based our recommendations on this observation as well as others found in the data. 
+  We saw that there indeed was a pattern for churn. Customers who churned were usually people with month-to-month contracts and churned within the first 12 months of their contract. We based our recommendations on this observation as well as others found in the data. The observations we found were done with the help of random forest decision trees to find feature importance with GridSearchCV tool to fine-tune the parameters of the model in order to optimize the features selected. 
 
 ## The Data
 https://www.kaggle.com/blastchar/telco-customer-churn
