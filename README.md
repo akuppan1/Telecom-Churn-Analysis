@@ -1,5 +1,10 @@
 # Telco Customer Churn Analysis and Recommendations
 
+## What this project is about:
+  We were tasked to analyze a telecom company's customer data in order help them mitigate their customer churn rate.
+
+## Summary
+  We saw that there indeed was a pattern for churn. Customers who churned were usually people with month-to-month contracts and churned within the first 12 months of their contract. We based our recommendations on this observation as well as others found in the data. 
 
 ## The Data
 https://www.kaggle.com/blastchar/telco-customer-churn
