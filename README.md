@@ -1,4 +1,4 @@
-# Telco Customer Churn Data Analysis and Recommendations
+# Telco Customer Churn Analysis and Recommendations
 
 
 ### The Data
