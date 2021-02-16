@@ -43,7 +43,7 @@ Additional information about the dataset can be found [**here**](https://communi
 ### 2. Analyzing the most important features within the data
 
 #### To find the features that stand out, I went with RandomForestDecisionTree classifier and used GridSearchCV in order to find the best parameters
-#### Customized code for ROC curve from ![this link](https://medium.com/all-things-ai/in-depth-parameter-tuning-for-random-forest-d67bb7e920d)
+#### Customized code for ROC curve from [this link](https://medium.com/all-things-ai/in-depth-parameter-tuning-for-random-forest-d67bb7e920d)
 
 
 
