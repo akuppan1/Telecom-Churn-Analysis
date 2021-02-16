@@ -29,7 +29,7 @@ Additional information about the dataset can be found [**here**](https://communi
 #### Decisions that we made with the data to prep it for the classifiers:
 
 | Column | Change | Reason |
-| --- | --- |
+| --- | --- | --- |
 | Contract | 1) Month to month --> 0, 2) One Year --> 1, 3) Two year --> 3 | This is to turn string into numbers for the random forest.
 | PaymentMethod | 1) Electronig Check/Bank Transfer(auto)/Credit Card(auto) --> 0, 2) Mailed Check --> HighFrictionPayment --> 1 | 0 is for LowFrictionPayment and 1 is for HighFrictionPayment|
 
