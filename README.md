@@ -26,6 +26,7 @@ Additional information about the dataset can be found [**here**](https://communi
 ### 1. Cleaning the data
 
 #### Our goal here is to make the data able to play nice with the classifiers/modules that we want to use.
+#### I saved the final cleaned dataframe to a new modified csv file called: TelcoCustomerChurn[MODIFIED].csv
 #### Decisions that we made with the data to prep it for the classifiers:
 
 | Column | Change | Reason |
@@ -37,6 +38,12 @@ Additional information about the dataset can be found [**here**](https://communi
 | MonthlyCharges | Scaled it with Standard Scaler formula | To make it work well with classifier | 
 | tenure | Scaled it with Standard Scalar formula | To make it work well with classifier | 
 | Rest of the columns | Switched yes to 1 and no to 0 | In order to simplify the data for the classifier, I changed any yes/no to 1/0. Also male/female to 1/0 |
+
+
+### 2. Analyzing the most important features within the data
+
+#### To find the features that stand out, I went with RandomForestDecisionTree classifier and used GridSearchCV in order to find the best parameters
+#### Customized code for ROC curve from ![this link](https://medium.com/all-things-ai/in-depth-parameter-tuning-for-random-forest-d67bb7e920d)
 
 
 
