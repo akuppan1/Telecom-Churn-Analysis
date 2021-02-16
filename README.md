@@ -4,7 +4,7 @@
   We were tasked to analyze a telecom company's customer data in order help them mitigate their customer churn rate.
 
 ## Summary
-  We saw that there indeed was a pattern for churn. Customers who churned were usually people with month-to-month contracts and churned within the first 12 months of their contract. We based our recommendations on this observation as well as others found in the data. The observations we found were done with the help of random forest decision trees to find feature importance with GridSearchCV tool to fine-tune the parameters of the model in order to optimize the features selected. 
+  We saw that there indeed was a pattern for churn. Customers who churned were usually people with month-to-month contracts and churned within the first 12 months of their contract. We based our recommendations on this observation as well as others found in the data. We utilized random forest decision trees to find feature importance with GridSearchCV tool to fine-tune the parameters of the model in order to optimize the features selected. 
 
 ## The Data
 https://www.kaggle.com/blastchar/telco-customer-churn
@@ -21,6 +21,17 @@ Additional information about the dataset can be found [**here**](https://communi
 1. Clean the data to prepare it for analysis
 2. Analyze the most important features within the data 
 3. Give business recommendations based on the analysis of the features
+
+
+### 1. Cleaning the data
+
+#### Our goal here is to make the data able to play nice with the classifiers/modules that we want to use.
+#### Decisions that we made with the data to prep it for the classifiers:
+
+| Column | Change | Reason |
+| --- | --- |
+| Contract | 1) Month to month --> 0, 2) One Year --> 1, 3) Two year --> 3 | This is to turn string into numbers for the random forest.
+| PaymentMethod | 1) Electronig Check/Bank Transfer(auto)/Credit Card(auto) --> 0, 2) Mailed Check --> HighFrictionPayment --> 1 | 0 is for LowFrictionPayment and 1 is for HighFrictionPayment|
 
 
 
