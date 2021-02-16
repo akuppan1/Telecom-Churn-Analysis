@@ -45,8 +45,8 @@ Additional information about the dataset can be found [**here**](https://communi
 #### To find the features that stand out, I went with RandomForestDecisionTree classifier and used GridSearchCV in order to find the best parameters
 #### Customized code for ROC curve from [this link](https://medium.com/all-things-ai/in-depth-parameter-tuning-for-random-forest-d67bb7e920d)
 * I used this code to lower the number of parameters to pass through GridSearchCV in order to not have my computer run forever on tens of millions of runs
-* Brought it down to 288000 fits with the params: 
-** 
+* Managed to get GridSearchCV runs down to 288000 fits by guessing param sizes with the ROC curve checks
+*
 {'bootstrap': [True, False],
  'max_depth': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, None],
  'max_features': ['auto', None],
