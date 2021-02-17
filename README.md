@@ -58,10 +58,10 @@ From: https://senturus.com/wp-content/uploads/2016/05/IBM-Cognos-analytics-logo-
 
 ### Results from GridSearchCV:
 
-{'bootstrap': True,
- 'max_depth': 9,
- 'max_features': 'auto',
- 'min_samples_leaf': 7,
- 'min_samples_split': 6,
- 'n_estimators': 14}
+{'bootstrap': True, <br/>
+ 'max_depth': 9, <br/>
+ 'max_features': 'auto', <br/>
+ 'min_samples_leaf': 7, <br/>
+ 'min_samples_split': 6, <br/>
+ 'n_estimators': 14} 
 
