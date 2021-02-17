@@ -38,6 +38,7 @@ Additional information about the dataset can be found [**here**](https://communi
 | MonthlyCharges | Scaled it with MinMax Scaler formula | To make it work well with classifier | 
 | tenure | Scaled it with MinMax Scalar formula | To make it work well with classifier | 
 | MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies | Switched to 1/0 | In order to simplify the data for the classifier, I changed any yes/no to 1/0. Also male/female to 1/0 |
+| 'Unnamed' Index | Dropped column | I had 2 index columns. Dropped the one I don't need |
 
 
 ### 2. Analyzing the most important features within the data
