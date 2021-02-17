@@ -15,6 +15,7 @@ Additional information about the dataset can be found [**here**](https://communi
 
 
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/IBM-Cognos-analytics-logo-540X280.jpg?raw=true)
+https://senturus.com/wp-content/uploads/2016/05/IBM-Cognos-analytics-logo-540X280.jpg
 
 
 ## Agenda
