@@ -56,7 +56,12 @@ From: https://senturus.com/wp-content/uploads/2016/05/IBM-Cognos-analytics-logo-
 * 'min_samples_split': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
 * 'n_estimators': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
+### Results from GridSearchCV:
 
-
-
+{'bootstrap': True,
+ 'max_depth': 9,
+ 'max_features': 'auto',
+ 'min_samples_leaf': 7,
+ 'min_samples_split': 6,
+ 'n_estimators': 14}
 
