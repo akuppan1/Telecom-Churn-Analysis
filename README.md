@@ -34,9 +34,9 @@ Additional information about the dataset can be found [**here**](https://communi
 | Contract | 1) Month to month --> 0, 2) One Year --> 1, 3) Two year --> 3 | This is to turn string into numbers for the random forest.
 | PaymentMethod | 1) Electronic Check/Bank Transfer(auto)/Credit Card(auto) --> 0, 2) Mailed Check --> HighFrictionPayment --> 1 | Redundant information. Reduced complexity : 0 is for LowFrictionPayment and 1 is for HighFrictionPayment|
 | TotalCharges | Removed rows with blank values | The blank value rows were interfering with changing column type to float |  
-| TotalCharges | Scaled it with Standard Scaler formula | To make it work well with classifier | 
-| MonthlyCharges | Scaled it with Standard Scaler formula | To make it work well with classifier | 
-| tenure | Scaled it with Standard Scalar formula | To make it work well with classifier | 
+| TotalCharges | Scaled it with MinMax Scaler formula | To make it work well with classifier | 
+| MonthlyCharges | Scaled it with MinMax Scaler formula | To make it work well with classifier | 
+| tenure | Scaled it with MinMax Scalar formula | To make it work well with classifier | 
 | MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies | Switched to 1/0 | In order to simplify the data for the classifier, I changed any yes/no to 1/0. Also male/female to 1/0 |
 
 
