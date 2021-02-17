@@ -37,7 +37,7 @@ Additional information about the dataset can be found [**here**](https://communi
 | TotalCharges | Scaled it with Standard Scaler formula | To make it work well with classifier | 
 | MonthlyCharges | Scaled it with Standard Scaler formula | To make it work well with classifier | 
 | tenure | Scaled it with Standard Scalar formula | To make it work well with classifier | 
-| Rest of the columns | Switched yes to 1 and no to 0 | In order to simplify the data for the classifier, I changed any yes/no to 1/0. Also male/female to 1/0 |
+| MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies | Switched to 1/0 | In order to simplify the data for the classifier, I changed any yes/no to 1/0. Also male/female to 1/0 |
 
 
 ### 2. Analyzing the most important features within the data
