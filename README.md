@@ -65,3 +65,6 @@ From: https://senturus.com/wp-content/uploads/2016/05/IBM-Cognos-analytics-logo-
  'min_samples_split': 6, <br/>
  'n_estimators': 14} 
 
+### 3. Analysis of features and recommendations
+
+
