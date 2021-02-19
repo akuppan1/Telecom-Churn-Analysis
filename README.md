@@ -67,4 +67,6 @@ From: https://senturus.com/wp-content/uploads/2016/05/IBM-Cognos-analytics-logo-
 
 ### 3. Analysis of features and recommendations
 
+#### After I ran the RandomForestDecisionTree classifier, I plotted the feature importances in descending order:
+(https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results.PNG)
 
