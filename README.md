@@ -71,7 +71,9 @@ After I ran the RandomForestDecisionTree classifier, I plotted the feature impor
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results.PNG)
 <br/>
 
-Analyzing the month-to-month contracts we see the following: <br/>
+Analyzing the month-to-month contracts we see the following information below. We see that a good portion of the people who churn happen within the first year of maintaining a month-to-month contract.  <br/>
+<br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_2.PNG)
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_3.PNG)
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_4.PNG)
 
