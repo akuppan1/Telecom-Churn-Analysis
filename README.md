@@ -82,6 +82,7 @@ We can compare churn in month-to-month with other contract types. Here are the 1
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_5.PNG)
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_6.PNG)
 <br/>
-
-
+<br/>
+<br/>
+Analyzing tenure, we see that it confirms the Contract type analysis from above. We see a huge spike in tenure in the first 10 months.
 
