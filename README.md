@@ -27,9 +27,9 @@ From: https://senturus.com/wp-content/uploads/2016/05/IBM-Cognos-analytics-logo-
 
 ### 1. Cleaning the data
 
-#### Our goal here is to make the data able to play nice with the classifiers/modules that we want to use.
-#### I saved the final cleaned dataframe to a new modified csv file called: TelcoCustomerChurn[MODIFIED].csv
-#### Decisions that we made with the data to prep it for the classifiers:
+Our goal here is to make the data able to play nice with the classifiers/modules that we want to use.
+I saved the final cleaned dataframe to a new modified csv file called: TelcoCustomerChurn[MODIFIED].csv
+Decisions that we made with the data to prep it for the classifiers:
 
 | Column | Change | Reason |
 | ----- | ----- | ----- |
@@ -45,10 +45,10 @@ From: https://senturus.com/wp-content/uploads/2016/05/IBM-Cognos-analytics-logo-
 
 ### 2. Analyzing the most important features within the data
 
-#### To find the features that stand out, I went with RandomForestDecisionTree classifier and used GridSearchCV in order to find the best parameters
-#### Customized code for ROC curve from [this link](https://medium.com/all-things-ai/in-depth-parameter-tuning-for-random-forest-d67bb7e920d)
-##### I used this code to lower the number of parameters to pass through GridSearchCV in order to not have my computer run forever on tens of millions of runs
-##### Managed to get GridSearchCV runs down to 288000 fits by guessing param sizes with the ROC curve checks
+To find the features that stand out, I went with RandomForestDecisionTree classifier and used GridSearchCV in order to find the best parameters
+Customized code for ROC curve from [this link](https://medium.com/all-things-ai/in-depth-parameter-tuning-for-random-forest-d67bb7e920d)
+I used this code to lower the number of parameters to pass through GridSearchCV in order to not have my computer run forever on tens of millions of runs
+Managed to get GridSearchCV runs down to 288000 fits by guessing param sizes with the ROC curve checks
 * 'bootstrap': [True, False],
 * 'max_depth': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, None],
 * 'max_features': ['auto', None],
@@ -67,6 +67,10 @@ From: https://senturus.com/wp-content/uploads/2016/05/IBM-Cognos-analytics-logo-
 
 ### 3. Analysis of features and recommendations
 
-#### After I ran the RandomForestDecisionTree classifier, I plotted the feature importances in descending order:
+After I ran the RandomForestDecisionTree classifier, I plotted the feature importances in descending order:
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results.PNG)
+
+Analyzing the month-to-month contracts we see the following: 
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_2.PNG)
+
 
