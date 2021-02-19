@@ -69,8 +69,9 @@ Managed to get GridSearchCV runs down to 288000 fits by guessing param sizes wit
 
 After I ran the RandomForestDecisionTree classifier, I plotted the feature importances in descending order:
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results.PNG)
+<br/>
 
-Analyzing the month-to-month contracts we see the following: 
+Analyzing the month-to-month contracts we see the following: <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_2.PNG)
-
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_3.PNG)
 
