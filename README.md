@@ -76,4 +76,8 @@ Analyzing the month-to-month contracts we see the following information below. W
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_2.PNG)
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_3.PNG)
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_4.PNG)
+<br/>
+<br/>
+We can compare churn in month-to-month with other contract types. Here are the 1-Year and 2-Year contracts:<br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_5.PNG)
 
