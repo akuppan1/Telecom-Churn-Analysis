@@ -101,6 +101,14 @@ Below we see the month-to-month pricing for churned customers. The spikes may in
 <br/>
 We can compare that amongst non-churned customers with 72 month tenure below. Again, we don't have too much information but we can see there are certain price tiers and a good amount are on the lower price point. <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_72nochurn_vs_monthlycharges.PNG)
+<br/>
+<br/>
+We see below number churned vs. Monthly Charges:
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_YES-CHURN_vs_monthlycharges.PNG)
+<br/>
+We see below number NOT-churned vs. Monthly Charges:
+<br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_NO-CHURN_vs_monthlycharges.PNG)
 
 
 
