@@ -104,6 +104,7 @@ We can compare that amongst non-churned customers with 72 month tenure below. Ag
 <br/>
 <br/>
 We see below number churned vs. Monthly Charges:
+<br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_YES-CHURN_vs_monthlycharges.PNG)
 <br/>
 We see below number NOT-churned vs. Monthly Charges:
