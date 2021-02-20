@@ -66,11 +66,11 @@ Managed to get GridSearchCV runs down to 288000 fits by guessing param sizes wit
  'n_estimators': 14} 
 
 ### 3. Analysis of features and recommendations
-
+#### Feature Importances
 After I ran the RandomForestDecisionTree classifier, I plotted the feature importances in descending order:
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results.PNG)
 <br/>
-
+##### Contract Types
 Analyzing the month-to-month contracts we see the following information below. We see that a good portion of the people who churn happen within the first year of maintaining a month-to-month contract.  <br/>
 <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_2.PNG)
@@ -84,7 +84,8 @@ We can compare churn in month-to-month with other contract types. Here are the 1
 <br/>
 <br/>
 <br/>
-Analyzing tenure for customers that churned, we see that it confirms the Contract type analysis from above. We see a huge spike in tenure in the first 10 months.
+##### Tenure 
+Analyzing tenure for customers that churned, we see that it confirms the Contract type analysis from above. We see a huge spike in tenure in the first 12 months.
 <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/tenure_churn_yes_pie.PNG)
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_number_churned_vs_tenure_range.PNG)
@@ -92,6 +93,14 @@ Analyzing tenure for customers that churned, we see that it confirms the Contrac
 <br/>
 We also see that tenure has many contracts with high month amounts where the customer does not churn.
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_No-Churn_analysis.PNG)
+<br/>
+##### Monthly Charges
+Below we see the month-to-month pricing for churned customers. The spikes may indicate that there is a higher number of base-plan tier users, but we don't have enough information to be sure of that. <br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_1monthtenure_vs_monthlycharges.PNG)
+<br/>
+We can compare that amongst non-churned customers with 72 month tenure below. Again, we don't have too much information but we can see there are certain price tiers and a good amount are on the lower price point. 
+
+
 
 
 
