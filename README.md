@@ -98,7 +98,8 @@ We also see that tenure has many contracts with high month amounts where the cus
 Below we see the month-to-month pricing for churned customers. The spikes may indicate that there is a higher number of base-plan tier users, but we don't have enough information to be sure of that. <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_1monthtenure_vs_monthlycharges.PNG)
 <br/>
-We can compare that amongst non-churned customers with 72 month tenure below. Again, we don't have too much information but we can see there are certain price tiers and a good amount are on the lower price point. 
+We can compare that amongst non-churned customers with 72 month tenure below. Again, we don't have too much information but we can see there are certain price tiers and a good amount are on the lower price point. <br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_72nochurn_vs_monthlycharges.PNG)
 
 
 
