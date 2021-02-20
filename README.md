@@ -70,7 +70,7 @@ Managed to get GridSearchCV runs down to 288000 fits by guessing param sizes wit
 After I ran the RandomForestDecisionTree classifier, I plotted the feature importances in descending order:
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results.PNG)
 <br/>
-##### ------------- Contract Types --------------------------------------------
+##### ------------- CONTRACT TYPES --------------------------------------------
 Analyzing the month-to-month contracts we see the following information below. We see that a good portion of the people who churn happen within the first year of maintaining a month-to-month contract.  <br/>
 <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_2.PNG)
@@ -84,7 +84,7 @@ We can compare churn in month-to-month with other contract types. Here are the 1
 <br/>
 <br/>
 <br/>
-##### --------------- Tenure ----------------------------------------------------
+##### --------------- TENURE ----------------------------------------------------
 Analyzing tenure for customers that churned, we see that it confirms the Contract type analysis from above. We see a huge spike in tenure in the first 12 months.
 <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/tenure_churn_yes_pie.PNG)
@@ -95,7 +95,7 @@ Analyzing tenure for customers that churned, we see that it confirms the Contrac
 We also see that tenure has many contracts with high month amounts where the customer does not churn.
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_No-Churn_analysis.PNG)
 <br/>
-##### Monthly Charges
+##### ------------------ MONTHLY CHARGES -----------------------------------------------------
 Below we see the month-to-month pricing for churned customers. The spikes may indicate that there is a higher number of base-plan tier users, but we don't have enough information to be sure of that. <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_1monthtenure_vs_monthlycharges.PNG)
 <br/>
@@ -110,6 +110,9 @@ We see below number churned vs. Monthly Charges:
 We see below number NOT-churned vs. Monthly Charges:
 <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_NO-CHURN_vs_monthlycharges.PNG)
+
+##### -------------------TOTAL CHARGES ---------------------------------------------------------
+
 
 
 
