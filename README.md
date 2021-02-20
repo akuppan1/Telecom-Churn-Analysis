@@ -87,10 +87,11 @@ We can compare churn in month-to-month with other contract types. Here are the 1
 Analyzing tenure for customers that churned, we see that it confirms the Contract type analysis from above. We see a huge spike in tenure in the first 10 months.
 <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/tenure_churn_yes_pie.PNG)
-![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/tenure_1.PNG)
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_number_churned_vs_tenure_range.PNG)
 <br/>
 <br/>
 We also see that tenure has many contracts with high month amounts where the customer does not churn.
-![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/tenure_no_churn_analysis_bar.PNG)
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_No-Churn_analysis.PNG)
+
 
 
