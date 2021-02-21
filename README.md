@@ -111,7 +111,16 @@ We see below number NOT-churned vs. Monthly Charges:
 <br/>
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_bar_NO-CHURN_vs_monthlycharges.PNG)
 
-##### -------------------TOTAL CHARGES ---------------------------------------------------------
+##### -------------------TOTAL CHARGES --------------------------------------------------------- <br/>
+
+We have a bar graph of different occurences of ranges of TotalCharges. We see that it also reflects that with the customers that churned, the total charges was much less. 
+This indicates that the people left early and did not pay much. <br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_YES-CHURNED_vs_totalcharges.PNG)
+<br/>
+<br/>
+We also see with people that did not churn that there are more of those who stayed longer. 
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_NO-CHURN_TotalCharges.PNG)
+
 
 
 
