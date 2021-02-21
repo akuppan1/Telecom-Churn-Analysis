@@ -136,8 +136,27 @@ However, we see that amongst the customers that did churn, there was a large per
 <br/>
 ### 4. Recommendations
 
-We saw that month-to-month contracts churned within the first 12 months. They did not pay well and most probably require manpower in order to handle the customer wanting to switch and leave our product. We also saw that 
+We saw that month-to-month contracts churned within the first 12 months. They did not pay well and most probably require manpower in order to handle the customer wanting to switch and leave our product. We also saw that churn decreased over time. As contract length increased, less people churned. We saw that for monthly charges amongst churned customers, there was a higher number of people churning at the higher price points. Additionally, we saw that there was a predominance of fiber optics service provider for the internet service amongst the churned customers. <br/>
+<br/>
 
+Thus we give the following recommendations:
+<br/>
+1) Improve retention strategy for month-to-month contracts. Either push the customer to go for longer plans or get rid of month-to-month altogether
+    - Future Work : How much cost is it to onboard a customer and how much money will we lose if we got rid of month-to-month contracts?
+2) Contact the fiber-optics service providers of churned customers in order to push new marketing/ad campaigns
+3) Price tiers for month-to-months? Why not simplify instead? Offer better terms to begin with so it will be more painful for them to churn. Other competitors will have to compete with us.
+4) Speaking of offering better terms, make the longer term contracts more enticing. Encourage longer term contracts with sweet deals to the customers that will churn. 
+5) Create a survery for churned customers to see what other facts are coming in to play outside of this data. We need more data!
+
+<br/> 
+<br/>
+
+### 5. Future Work
+1) We need more data: Customer Churn Sentiment/Surveys, competitor price points on month-to-month contracts
+2) Explore location data of churned vs. non-churned customers - are there geographical qualitative data that we are missing? Do people churn more in certain regions?
+3) Time data - when are they churning and on what date? Is there some major event occuring?
+4) Survey the long term clients to see why they stick with us. What programs are we offering that changed in the past 72 months? What can we offer new now to new customers?
+5) Decision help for getting rid of month-to-month altogether: What is the cost of onboarding a month-to-month customer vs. Getting rid of the program altogether? 
 
 
 
