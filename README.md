@@ -126,7 +126,18 @@ We also see with people that did not churn that there are more of those who stay
 
 While this result, according to the importances chart, was the lowest. It was barely touching significance. We will still take a look at it. <br/>
 <br/>
-We see that 
+We see that among the the customers that did not churn, there seems to be a not too variable distribution of different values for internet service. <br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_fiber2_nochurn.JPG)
+<br/>
+<br/>
+However, we see that amongst the customers that did churn, there was a large percentage that had fiber optic. We might be able to reach out to that fiber optice service provider for some kind of ad or marketing campaign for retention and extending contracts. <br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_fiber1.JPG)
+<br/>
+<br/>
+### 4. Recommendations
+
+We saw that month-to-month contracts churned within the first 12 months. They did not pay well and most probably require manpower in order to handle the customer wanting to switch and leave our product. We also saw that 
+
 
 
 
