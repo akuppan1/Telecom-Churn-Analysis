@@ -120,7 +120,13 @@ This indicates that the people left early and did not pay much. <br/>
 <br/>
 We also see with people that did not churn that there are more of those who stayed longer. 
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_NO-CHURN_TotalCharges.PNG)
+<br/>
+<br/>
+##### ------------------- Internet Service -------------------------------------------------------<br/>
 
+While this result, according to the importances chart, was the lowest. It was barely touching significance. We will still take a look at it. <br/>
+<br/>
+We see that 
 
 
 
