@@ -48,12 +48,12 @@ Decisions that we made with the data to prep it for the classifiers:
 To find the features that stand out, I went with RandomForestDecisionTree classifier and used GridSearchCV in order to find the best parameters
 Customized code for ROC curve from [this link](https://medium.com/all-things-ai/in-depth-parameter-tuning-for-random-forest-d67bb7e920d)
 I used this code to lower the number of parameters to pass through GridSearchCV in order to not have my computer run forever on tens of millions of runs
-Managed to get GridSearchCV runs down to 288000 fits by guessing param sizes with the ROC curve checks
+Managed to get GridSearchCV runs down to 259200 fits by guessing param sizes with the ROC curve checks
 * 'bootstrap': [True, False],
 * 'max_depth': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, None],
 * 'max_features': ['auto', None],
 * 'min_samples_leaf': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-* 'min_samples_split': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+* 'min_samples_split': [2, 3, 4, 5, 6, 7, 8, 9, 10],
 * 'n_estimators': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
 ### Results from GridSearchCV:
@@ -178,9 +178,3 @@ Thus we give the following recommendations:
 3) Time data - when are they churning and on what date? Is there some major event occuring?
 4) Survey the long term clients to see why they stick with us. What programs are we offering that changed in the past 72 months? What can we offer new now to new customers?
 5) Decision help for getting rid of month-to-month altogether: What is the cost of onboarding a month-to-month customer vs. Getting rid of the program altogether? 
-
-
-
-
-
-
