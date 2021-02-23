@@ -155,7 +155,7 @@ Again, we see customers who did not churn had online security.
 
 ### 4. Recommendations
 
-We saw that month-to-month contracts churned within the first 12 months. They did not pay well and most probably require manpower in order to handle the customer wanting to switch and leave our product. We also saw that churn decreased over time. As contract length increased, less people churned. We saw that for monthly charges amongst churned customers, there was a higher number of people churning at the higher price points. Additionally, we saw that there was a predominance of fiber optics service provider for the internet service amongst the churned customers. <br/>
+We saw that month-to-month contracts churned within the first 12 months. They did not pay well and most probably require manpower in order to handle the customer wanting to switch and leave our product. We also saw that churn decreased over time. As contract length increased, less people churned. We saw that for monthly charges amongst churned customers, there was a higher number of people churning at the higher price points. Customers who churned did not have much tech support or online security. Additionally, we saw that there was a predominance of fiber optics service provider for the internet service amongst the churned customers. <br/>
 <br/>
 
 Thus we give the following recommendations:
