@@ -59,16 +59,16 @@ Managed to get GridSearchCV runs down to 288000 fits by guessing param sizes wit
 ### Results from GridSearchCV:
 
 {'bootstrap': True, <br/>
- 'max_depth': 9, <br/>
+ 'max_depth': 7, <br/>
  'max_features': 'auto', <br/>
  'min_samples_leaf': 7, <br/>
- 'min_samples_split': 6, <br/>
- 'n_estimators': 14} 
+ 'min_samples_split': 5, <br/>
+ 'n_estimators': 12} 
 
 ### 3. Analysis of features and recommendations
 #### Feature Importances
 After I ran the RandomForestDecisionTree classifier, I plotted the feature importances in descending order:
-![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results.PNG)
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature%20results%20final.JPG)
 <br/>
 ##### ------------- CONTRACT TYPES --------------------------------------------
 Analyzing the month-to-month contracts we see the following information below. We see that a good portion of the people who churn happen within the first year of maintaining a month-to-month contract.  <br/>
