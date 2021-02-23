@@ -122,7 +122,7 @@ We also see with people that did not churn that there are more of those who stay
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/features_results_NO-CHURN_TotalCharges.PNG)
 <br/>
 <br/>
-##### ------------------- Internet Service -------------------------------------------------------<br/>
+##### ------------------- INTERNET SERVICE -------------------------------------------------------<br/>
 
 While this result, according to the importances chart, was the lowest. It was barely touching significance. We will still take a look at it. <br/>
 <br/>
@@ -134,6 +134,25 @@ However, we see that amongst the customers that did churn, there was a large per
 ![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_results_fiber1.JPG)
 <br/>
 <br/>
+
+##### ------------------- TECH SUPPORT -------------------------------------------------------<br/>
+We saw that in the customers who churned. There was no tech support. <br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_techsupp_yeschurn.JPG)
+<br/>
+<br/>
+We also saw customers who did not churn, they had tech support. <br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_techsupp_nochurn.JPG)
+<br/>
+<br/>
+##### ------------------- ONLINE SECURITY -------------------------------------------------------<br/>
+Similarily, we saw that in customers who churned, they had no online security. <br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_onlinesec_yeschurn.JPG)
+<br/>
+<br/>
+Again, we see customers who did not churn had online security.
+<br/>
+![](https://github.com/akuppan1/Flatiron-Mod3Project-FINAL/blob/main/README%20Pics/feature_onlinesec_nochurn.JPG)
+
 ### 4. Recommendations
 
 We saw that month-to-month contracts churned within the first 12 months. They did not pay well and most probably require manpower in order to handle the customer wanting to switch and leave our product. We also saw that churn decreased over time. As contract length increased, less people churned. We saw that for monthly charges amongst churned customers, there was a higher number of people churning at the higher price points. Additionally, we saw that there was a predominance of fiber optics service provider for the internet service amongst the churned customers. <br/>
