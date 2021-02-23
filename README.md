@@ -147,6 +147,8 @@ Thus we give the following recommendations:
 3) Price tiers for month-to-months? Why not simplify instead? Offer better terms to begin with so it will be more painful for them to churn. Other competitors will have to compete with us.
 4) Speaking of offering better terms, make the longer term contracts more enticing. Encourage longer term contracts with sweet deals to the customers that will churn. 
 5) Create a survery for churned customers to see what other facts are coming in to play outside of this data. We need more data!
+6) Offer tech support if it means to save a churning customer.
+7) Offer online security if it means to save the customer.
 
 <br/> 
 <br/>
